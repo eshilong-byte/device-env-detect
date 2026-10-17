@@ -1,0 +1,17 @@
+{
+  "name": "device-env-detect/php",
+  "description": "PHP 设备环境检测：电脑 / 手机浏览器 / 微信 H5（兼容 PHP 8.0~8.5）",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "DeviceEnvDetect\\": ""
+    }
+  },
+  "require": {
+    "php": ">=8.0"
+  },
+  "suggest": {
+    "ext-mbstring": "建议安装，用于更好的字符串处理"
+  }
+}
