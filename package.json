@@ -1,0 +1,16 @@
+{
+  "name": "device-env-detect",
+  "version": "1.0.0",
+  "description": "稳健的设备环境检测：电脑 / 手机浏览器 / 微信 H5",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": ["device", "detect", "wechat", "ua-parser", "mobile", "desktop"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ua-parser-js": "^2.0.10"
+  }
+}
